@@ -1,0 +1,3 @@
+# RTbuild/ACCSSystem/LeverCommand.cmk
+
+ACCSSystem_LeverCommand_DEPS_J = RTforce

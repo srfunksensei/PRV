@@ -1,0 +1,5 @@
+# RTbuild/ACCSSystem/ThrottleSensor.gmk
+
+ACCSSystem_ThrottleSensor_DEPS = RTforce
+
+ACCSSystem_ThrottleSensor_DEPS_CS = ACCSSystem/ThrottleSensor.java

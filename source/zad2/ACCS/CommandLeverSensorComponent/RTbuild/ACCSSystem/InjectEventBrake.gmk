@@ -1,0 +1,5 @@
+# RTbuild/ACCSSystem/InjectEventBrake.gmk
+
+ACCSSystem_InjectEventBrake_DEPS = RTforce
+
+ACCSSystem_InjectEventBrake_DEPS_CS = ACCSSystem/InjectEventBrake.java

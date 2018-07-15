@@ -1,0 +1,5 @@
+# RTbuild/ACCSSystem/EnableTopGear.gmk
+
+ACCSSystem_EnableTopGear_DEPS = RTforce
+
+ACCSSystem_EnableTopGear_DEPS_CS = ACCSSystem/EnableTopGear.java

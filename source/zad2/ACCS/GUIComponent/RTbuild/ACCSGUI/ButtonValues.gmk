@@ -1,0 +1,5 @@
+# RTbuild/ACCSGUI/ButtonValues.gmk
+
+ACCSGUI_ButtonValues_DEPS = RTforce
+
+ACCSGUI_ButtonValues_DEPS_CS = ACCSGUI/ButtonValues.java

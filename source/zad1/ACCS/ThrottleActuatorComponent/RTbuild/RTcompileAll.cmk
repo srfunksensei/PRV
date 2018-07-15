@@ -1,0 +1,44 @@
+# RTbuild/RTcompileAll.cmk
+
+RTcompileAll_DEPS_J = \
+	ACCSSystem/ThrottleActuator.java \
+	ACCSSystem/CurrentSpeed.java \
+	ACCSSystem/LeverCommand.java \
+	ACCSSystem/Voltage.java \
+	ACCSSystem/WheelShaftSensor.java \
+	ACCSSystem/EnableEngine.java \
+	ACCSSystem/Parameters.java \
+	ACCSSystem/FunctionParameters.java \
+	ACCSSystem/ManualParameters.java \
+	ACCSSystem/CommandLeverSensor.java \
+	ACCSSystem/BrakeInterrupt.java \
+	ACCSSystem/EnableTopGear.java \
+	com/rational/rosert/Capsule.class \
+	java/lang/Object.class \
+	com/rational/rosert/RootProtocolRole.class \
+	com/rational/rosert/ProtocolRole.class \
+	com/rational/rosert/Timing.class \
+	com/rational/rosert/BindingEnd.class \
+	java/lang/String.class \
+	com/rational/rosert/AttributeList.class \
+	com/rational/rosert/ExtendedAttributeList.class \
+	java/lang/System.class \
+	java/lang/Error.class \
+	com/rational/rosert/IllegalSignalException.class \
+	java/lang/RuntimeException.class \
+	java/lang/Exception.class \
+	java/lang/Throwable.class \
+	java/lang/Integer.class \
+	java/lang/Number.class \
+	java/lang/Boolean.class \
+	java/lang/Math.class \
+	java/io/PrintStream.class \
+	java/io/FilterOutputStream.class \
+	java/io/OutputStream.class \
+	java/lang/Byte.class \
+	java/lang/Character.class \
+	java/lang/Short.class \
+	java/lang/Long.class \
+	java/lang/Float.class \
+	java/lang/Double.class \
+	java/lang/Void.class

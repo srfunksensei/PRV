@@ -1,0 +1,3 @@
+# RTbuild/ACCSGUI/ACCSGUIPanel.cmk
+
+ACCSGUI_ACCSGUIPanel_DEPS_J = RTforce

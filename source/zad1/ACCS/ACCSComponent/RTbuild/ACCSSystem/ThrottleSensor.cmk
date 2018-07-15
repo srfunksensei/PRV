@@ -1,0 +1,3 @@
+# RTbuild/ACCSSystem/ThrottleSensor.cmk
+
+ACCSSystem_ThrottleSensor_DEPS_J = RTforce

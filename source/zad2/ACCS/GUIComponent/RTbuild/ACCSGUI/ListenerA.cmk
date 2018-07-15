@@ -1,0 +1,3 @@
+# RTbuild/ACCSGUI/ListenerA.cmk
+
+ACCSGUI_ListenerA_DEPS_J = RTforce

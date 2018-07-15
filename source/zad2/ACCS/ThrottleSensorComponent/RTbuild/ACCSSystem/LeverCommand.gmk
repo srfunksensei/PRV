@@ -1,0 +1,5 @@
+# RTbuild/ACCSSystem/LeverCommand.gmk
+
+ACCSSystem_LeverCommand_DEPS = RTforce
+
+ACCSSystem_LeverCommand_DEPS_CS = ACCSSystem/LeverCommand.java

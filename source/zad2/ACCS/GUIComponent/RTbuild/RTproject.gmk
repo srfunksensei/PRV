@@ -1,0 +1,19 @@
+# RTbuild/RTproject.gmk
+
+RTproject_DEPS = \
+	C:\CopyACCS\ACCS.rtmdl \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/Java/ComponentView/java.rtcmppkg" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/Java/LogicalView/java.rtlogpkg" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert.rtlogpkg"
+
+RTproject_DEPS_CS = \
+	ACCSGUIPanel.java \
+	ListenerA.java \
+	ButtonEvent.java \
+	ButtonValues.java \
+	MouseAdapter.java \
+	FunctionParameters.java \
+	ManualParameters.java \
+	ListenerMP.java \
+	ListenerFP.java \
+	RTbuild/RTproject.gmk

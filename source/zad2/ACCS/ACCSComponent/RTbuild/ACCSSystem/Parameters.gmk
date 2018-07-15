@@ -1,0 +1,5 @@
+# RTbuild/ACCSSystem/Parameters.gmk
+
+ACCSSystem_Parameters_DEPS = RTforce
+
+ACCSSystem_Parameters_DEPS_CS = ACCSSystem/Parameters.java

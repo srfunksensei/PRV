@@ -1,0 +1,3 @@
+# RTbuild/ACCSSystem/WheelShaftSensor.cmk
+
+ACCSSystem_WheelShaftSensor_DEPS_J = RTforce

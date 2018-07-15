@@ -1,0 +1,5 @@
+# RTbuild/ACCSGUI/ListenerMP.gmk
+
+ACCSGUI_ListenerMP_DEPS = RTforce
+
+ACCSGUI_ListenerMP_DEPS_CS = ACCSGUI/ListenerMP.java

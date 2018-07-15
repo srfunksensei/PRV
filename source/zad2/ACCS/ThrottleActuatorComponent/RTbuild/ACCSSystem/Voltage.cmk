@@ -1,0 +1,3 @@
+# RTbuild/ACCSSystem/Voltage.cmk
+
+ACCSSystem_Voltage_DEPS_J = RTforce

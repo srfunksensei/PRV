@@ -1,0 +1,3 @@
+# RTbuild/ACCSSystem/CurrentSpeed.cmk
+
+ACCSSystem_CurrentSpeed_DEPS_J = RTforce

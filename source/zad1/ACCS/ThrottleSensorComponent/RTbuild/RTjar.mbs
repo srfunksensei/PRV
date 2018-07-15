@@ -1,0 +1,9 @@
+# RTjar.mbs : a Makefile Build Script
+# This file is not included by RTcompile.mk,
+# but any changes to this file will cause a 're-jar'
+
+JAR_CMD = jar cvf "$(JAR_TARGET)" -C "$(OUTPUT_CLASS_DIR)" .
+JAR_TARGET = C:\Documents and Settings\!Fantazio!\My Documents\ACCS/ThrottleSensorComponent.jar
+JAVAC_CLASSPATH = -classpath ".$(JAVAC_PATHSEP)$(ROSERT_HOME)/RTJava/classes.jar$(JAVAC_PATHSEP)%CLASSPATH%"
+OUTPUT_CLASS_DIR = C:\Documents and Settings\!Fantazio!\My Documents\ACCS/ThrottleSensorComponent
+

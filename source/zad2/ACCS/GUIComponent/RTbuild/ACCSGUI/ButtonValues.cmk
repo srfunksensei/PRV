@@ -1,0 +1,3 @@
+# RTbuild/ACCSGUI/ButtonValues.cmk
+
+ACCSGUI_ButtonValues_DEPS_J = RTforce

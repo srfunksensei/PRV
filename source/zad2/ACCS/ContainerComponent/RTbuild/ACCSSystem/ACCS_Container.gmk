@@ -1,0 +1,5 @@
+# RTbuild/ACCSSystem/ACCS_Container.gmk
+
+ACCSSystem_ACCS__Container_DEPS = RTforce
+
+ACCSSystem_ACCS__Container_DEPS_CS = ACCSSystem/ACCS_Container.java

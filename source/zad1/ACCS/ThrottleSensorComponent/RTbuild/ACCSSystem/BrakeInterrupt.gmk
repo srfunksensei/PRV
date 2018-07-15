@@ -1,0 +1,5 @@
+# RTbuild/ACCSSystem/BrakeInterrupt.gmk
+
+ACCSSystem_BrakeInterrupt_DEPS = RTforce
+
+ACCSSystem_BrakeInterrupt_DEPS_CS = ACCSSystem/BrakeInterrupt.java

@@ -1,0 +1,25 @@
+# RTbuild/RTcompileAll.cmk
+
+RTcompileAll_DEPS_J = \
+	ACCSSystem/BrakeSensor.java \
+	ACCSSystem/BrakeInterrupt.java \
+	com/rational/rosert/Capsule.class \
+	java/lang/Object.class \
+	com/rational/rosert/RootProtocolRole.class \
+	com/rational/rosert/ProtocolRole.class \
+	com/rational/rosert/BindingEnd.class \
+	java/lang/String.class \
+	java/lang/Boolean.class \
+	java/lang/Byte.class \
+	java/lang/Character.class \
+	java/lang/Short.class \
+	java/lang/Integer.class \
+	java/lang/Long.class \
+	java/lang/Float.class \
+	java/lang/Double.class \
+	java/lang/Void.class \
+	java/lang/Error.class \
+	com/rational/rosert/IllegalSignalException.class \
+	java/lang/RuntimeException.class \
+	java/lang/Exception.class \
+	java/lang/Throwable.class

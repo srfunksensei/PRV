@@ -1,0 +1,5 @@
+# RTbuild/ACCSSystem/TopGearSensor.gmk
+
+ACCSSystem_TopGearSensor_DEPS = RTforce
+
+ACCSSystem_TopGearSensor_DEPS_CS = ACCSSystem/TopGearSensor.java

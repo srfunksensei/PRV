@@ -1,0 +1,5 @@
+# RTbuild/ACCSSystem/InjectEventTopGear.gmk
+
+ACCSSystem_InjectEventTopGear_DEPS = RTforce
+
+ACCSSystem_InjectEventTopGear_DEPS_CS = ACCSSystem/InjectEventTopGear.java

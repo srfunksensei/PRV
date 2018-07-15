@@ -1,0 +1,8 @@
+# RTcompile.mbs : a Makefile Build Script
+# This file is not included by RTcompile.mk,
+# but any changes to this file will cause a 'recompile all'
+
+JAVAC = javac -d "$(OUTPUT_CLASS_DIR)"
+JAVAC_CLASSPATH = -classpath ".$(JAVAC_PATHSEP)C:\Documents and Settings\!Fantazio!\My Documents\NetBeansProjects\ACCS\src\rs\etf\prv\accs$(JAVAC_PATHSEP)%CLASSPATH%"
+OUTPUT_CLASS_DIR = C:\CopyACCS/GUIComponent
+

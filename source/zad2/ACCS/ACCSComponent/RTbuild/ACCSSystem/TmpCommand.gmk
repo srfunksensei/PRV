@@ -1,0 +1,5 @@
+# RTbuild/ACCSSystem/TmpCommand.gmk
+
+ACCSSystem_TmpCommand_DEPS = RTforce
+
+ACCSSystem_TmpCommand_DEPS_CS = ACCSSystem/TmpCommand.java

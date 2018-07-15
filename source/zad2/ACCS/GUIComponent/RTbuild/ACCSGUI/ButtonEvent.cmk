@@ -1,0 +1,3 @@
+# RTbuild/ACCSGUI/ButtonEvent.cmk
+
+ACCSGUI_ButtonEvent_DEPS_J = RTforce

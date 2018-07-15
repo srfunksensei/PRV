@@ -1,0 +1,5 @@
+# RTbuild/java/awt/event/MouseAdapter.gmk
+
+java_awt_event_MouseAdapter_DEPS = RTforce
+
+java_awt_event_MouseAdapter_DEPS_CS = java/awt/event/MouseAdapter.java

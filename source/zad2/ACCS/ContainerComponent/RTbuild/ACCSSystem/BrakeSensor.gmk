@@ -1,0 +1,5 @@
+# RTbuild/ACCSSystem/BrakeSensor.gmk
+
+ACCSSystem_BrakeSensor_DEPS = RTforce
+
+ACCSSystem_BrakeSensor_DEPS_CS = ACCSSystem/BrakeSensor.java

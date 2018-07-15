@@ -1,0 +1,5 @@
+# RTbuild/ACCSSystem/EnableEngine.gmk
+
+ACCSSystem_EnableEngine_DEPS = RTforce
+
+ACCSSystem_EnableEngine_DEPS_CS = ACCSSystem/EnableEngine.java

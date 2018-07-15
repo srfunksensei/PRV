@@ -1,0 +1,90 @@
+# RTbuild/RTproject.gmk
+
+RTproject_DEPS = \
+	C:\CopyACCS\ACCS.rtmdl \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/ComponentView/rosert.rtcmppkg" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/ComponentView/rosert/classes.rtcmp" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/ComponentView/rosert/special.rtcmp" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/Java/ComponentView/java.rtcmppkg" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert.rtlogpkg" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Exceptions.rtlogpkg" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/AlreadyDeferredException.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/Java/LogicalView/java.rtlogpkg" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Capsule.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Frame.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Log.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Timing.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Application.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/BadIndexException.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/BindingEnd.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Special.rtlogpkg" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Special/Capsule.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/CapsuleRole.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Controller.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/CrossThreadInvokeException.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/DeferralException.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/DeferredInitializationException.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/DeferredInvokeException.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Special/Frame.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/FullException.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/IllegalBindingException.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/IllegalPortReplyException.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/IllegalSignalException.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/IncompatibleClassException.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Special/Log.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/NotImplementedError.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/PortUnboundException.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Priority.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/ProtocolRole.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/RootProtocolRole.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Special/Timing.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/UnexpectedException.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/UnrecoverableError.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/UnsupportedOperationException.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Special/SuperCapsule.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Debug.rtlogpkg" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Debug/AttributeList.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Debug/ExtendedAttributeList.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Debug/CmdLineObserver.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Debug/Observer.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/RecursiveInvokeException.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Debug/ObserverFinder.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Debug/ObserverListener.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Debug/ToolsetObserver.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Debug/ObserverWriter.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Debug/ObserverPipeKvm.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Debug/ObserverPipeJvm.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/IllegalForwardException.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Debug/DebugApplication.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Debug/AsciiDecoding.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Debug/AsciiEncoding.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Debug/BaseDataClass.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Debug/ObserverPipe.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/LayerConnector.rtclass" \
+	"C:/Program Files/Rational/Rose RealTime/RTJava/TargetRTS/LogicalView/com/rational/rosert/Debug/EventListener.rtclass"
+
+RTproject_DEPS_CS = \
+	ACCS.java \
+	BrakeInterrupt.java \
+	CommandLeverSensor.java \
+	EnableTopGear.java \
+	EnableEngine.java \
+	ThrottleActuator.java \
+	ThrottleSensor.java \
+	WheelShaftSensor.java \
+	LeverCommand.java \
+	CurrentSpeed.java \
+	Parameters.java \
+	Voltage.java \
+	InjectEventEngine.java \
+	InjectEventTopGear.java \
+	InjectEventBrake.java \
+	InjectEventCommand.java \
+	InjectEventFunctionParams.java \
+	TmpBrake.java \
+	TmpTopGear.java \
+	TmpCommand.java \
+	TmpManualParams.java \
+	TmpFunctionParams.java \
+	InjectEventManualParams.java \
+	RTbuild/RTproject.gmk

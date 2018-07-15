@@ -1,0 +1,5 @@
+# RTbuild/ACCSSystem/EngineSensor.gmk
+
+ACCSSystem_EngineSensor_DEPS = RTforce
+
+ACCSSystem_EngineSensor_DEPS_CS = ACCSSystem/EngineSensor.java

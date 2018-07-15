@@ -1,0 +1,5 @@
+# RTbuild/ACCSSystem/CurrentSpeed.gmk
+
+ACCSSystem_CurrentSpeed_DEPS = RTforce
+
+ACCSSystem_CurrentSpeed_DEPS_CS = ACCSSystem/CurrentSpeed.java

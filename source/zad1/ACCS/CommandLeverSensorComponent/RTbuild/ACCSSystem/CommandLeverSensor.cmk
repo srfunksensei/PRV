@@ -1,0 +1,3 @@
+# RTbuild/ACCSSystem/CommandLeverSensor.cmk
+
+ACCSSystem_CommandLeverSensor_DEPS_J = RTforce

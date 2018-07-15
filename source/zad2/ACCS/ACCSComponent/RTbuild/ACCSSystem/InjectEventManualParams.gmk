@@ -1,0 +1,5 @@
+# RTbuild/ACCSSystem/InjectEventManualParams.gmk
+
+ACCSSystem_InjectEventManualParams_DEPS = RTforce
+
+ACCSSystem_InjectEventManualParams_DEPS_CS = ACCSSystem/InjectEventManualParams.java

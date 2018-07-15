@@ -1,0 +1,5 @@
+# RTbuild/ACCSSystem/Voltage.gmk
+
+ACCSSystem_Voltage_DEPS = RTforce
+
+ACCSSystem_Voltage_DEPS_CS = ACCSSystem/Voltage.java

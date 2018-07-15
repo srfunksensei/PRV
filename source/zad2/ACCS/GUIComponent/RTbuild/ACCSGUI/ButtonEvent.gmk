@@ -1,0 +1,5 @@
+# RTbuild/ACCSGUI/ButtonEvent.gmk
+
+ACCSGUI_ButtonEvent_DEPS = RTforce
+
+ACCSGUI_ButtonEvent_DEPS_CS = ACCSGUI/ButtonEvent.java

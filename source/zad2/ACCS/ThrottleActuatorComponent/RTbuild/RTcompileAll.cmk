@@ -1,0 +1,45 @@
+# RTbuild/RTcompileAll.cmk
+
+RTcompileAll_DEPS_J = \
+	ACCSSystem/ThrottleActuator.java \
+	ACCSSystem/CurrentSpeed.java \
+	ACCSSystem/LeverCommand.java \
+	ACCSSystem/Voltage.java \
+	ACCSSystem/WheelShaftSensor.java \
+	ACCSSystem/EnableEngine.java \
+	ACCSSystem/Parameters.java \
+	ACCSSystem/FunctionParameters.java \
+	ACCSSystem/ManualParameters.java \
+	ACCSSystem/CommandLeverSensor.java \
+	ACCSSystem/BrakeInterrupt.java \
+	ACCSSystem/EnableTopGear.java \
+	ACCSSystem/InjectEventEngine.java \
+	ACCSSystem/InjectEventTopGear.java \
+	ACCSSystem/InjectEventBrake.java \
+	ACCSSystem/InjectEventCommand.java \
+	ACCSSystem/InjectEventParams.java \
+	com/rational/rosert/Capsule.class \
+	java/lang/Object.class \
+	com/rational/rosert/RootProtocolRole.class \
+	com/rational/rosert/ProtocolRole.class \
+	com/rational/rosert/Timing.class \
+	com/rational/rosert/BindingEnd.class \
+	java/lang/String.class \
+	com/rational/rosert/AttributeList.class \
+	com/rational/rosert/ExtendedAttributeList.class \
+	"C:/Copy of ACCS/GUIComponent/ACCSGUI/ACCSGUIPanel.class" \
+	"C:/Copy of ACCS/GUIComponent/ACCSGUI/ButtonValues.class" \
+	"C:/Copy of ACCS/GUIComponent/ACCSGUI/ButtonEvent.class" \
+	java/lang/System.class \
+	javax/swing/JPanel.class \
+	javax/swing/JComponent.class \
+	java/awt/Container.class \
+	java/awt/Component.class \
+	java/lang/Error.class \
+	com/rational/rosert/IllegalSignalException.class \
+	java/lang/RuntimeException.class \
+	java/lang/Exception.class \
+	java/lang/Throwable.class \
+	java/lang/Integer.class \
+	java/lang/Number.class \
+	java/lang/Math.class

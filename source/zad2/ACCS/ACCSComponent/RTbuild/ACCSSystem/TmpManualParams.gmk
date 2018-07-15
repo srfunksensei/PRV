@@ -1,0 +1,5 @@
+# RTbuild/ACCSSystem/TmpManualParams.gmk
+
+ACCSSystem_TmpManualParams_DEPS = RTforce
+
+ACCSSystem_TmpManualParams_DEPS_CS = ACCSSystem/TmpManualParams.java

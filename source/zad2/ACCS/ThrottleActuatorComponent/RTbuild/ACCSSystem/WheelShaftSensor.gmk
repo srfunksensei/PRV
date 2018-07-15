@@ -1,0 +1,5 @@
+# RTbuild/ACCSSystem/WheelShaftSensor.gmk
+
+ACCSSystem_WheelShaftSensor_DEPS = RTforce
+
+ACCSSystem_WheelShaftSensor_DEPS_CS = ACCSSystem/WheelShaftSensor.java

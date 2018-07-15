@@ -1,0 +1,5 @@
+# RTbuild/ACCSSystem/ThrottleActuator.gmk
+
+ACCSSystem_ThrottleActuator_DEPS = RTforce
+
+ACCSSystem_ThrottleActuator_DEPS_CS = ACCSSystem/ThrottleActuator.java

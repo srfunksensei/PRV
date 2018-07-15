@@ -1,0 +1,3 @@
+# RTbuild/ACCSSystem/InjectEventCommand.cmk
+
+ACCSSystem_InjectEventCommand_DEPS_J = RTforce

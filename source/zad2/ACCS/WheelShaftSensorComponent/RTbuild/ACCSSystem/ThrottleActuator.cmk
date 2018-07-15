@@ -1,0 +1,3 @@
+# RTbuild/ACCSSystem/ThrottleActuator.cmk
+
+ACCSSystem_ThrottleActuator_DEPS_J = RTforce
